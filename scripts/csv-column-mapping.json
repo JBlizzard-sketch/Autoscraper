@@ -1,0 +1,133 @@
+{
+  "mappings": [
+    {
+      "csvColumn": "supplier",
+      "safeName": "supplier",
+      "sqlType": "text",
+      "sampleValue": "PolishVenture",
+      "reasoning": "Supplier name - will be normalized to suppliers table"
+    },
+    {
+      "csvColumn": "product_name",
+      "safeName": "product_name",
+      "sqlType": "text",
+      "sampleValue": "Hyundai Accent 00 Boot Outer CV Joint Kit PVC 76X98X23",
+      "reasoning": "Product name - primary display field"
+    },
+    {
+      "csvColumn": "price",
+      "safeName": "price",
+      "sqlType": "numeric(12,2)",
+      "sampleValue": "0",
+      "reasoning": "Numeric price - currently 0, stored as decimal for precision"
+    },
+    {
+      "csvColumn": "price_raw",
+      "safeName": "price_raw",
+      "sqlType": "text",
+      "sampleValue": "KSh0.00",
+      "reasoning": "Original price string (KSh format) - kept for reference"
+    },
+    {
+      "csvColumn": "vehicle_make",
+      "safeName": "vehicle_make",
+      "sqlType": "text",
+      "sampleValue": "Hyundai",
+      "reasoning": "Vehicle manufacturer - used for compatibility filtering"
+    },
+    {
+      "csvColumn": "vehicle_model",
+      "safeName": "vehicle_model",
+      "sqlType": "text",
+      "sampleValue": "",
+      "reasoning": "Vehicle model - used for compatibility filtering"
+    },
+    {
+      "csvColumn": "year_range",
+      "safeName": "year_range",
+      "sqlType": "text",
+      "sampleValue": "",
+      "reasoning": "Year compatibility - stored as text due to variable formats (single year, range)"
+    },
+    {
+      "csvColumn": "main_category",
+      "safeName": "main_category",
+      "sqlType": "text",
+      "sampleValue": "Uncategorized",
+      "reasoning": "Primary category - will be normalized to categories table"
+    },
+    {
+      "csvColumn": "subcategory",
+      "safeName": "subcategory",
+      "sqlType": "text",
+      "sampleValue": "",
+      "reasoning": "Secondary category - hierarchical relationship to main_category"
+    },
+    {
+      "csvColumn": "brand",
+      "safeName": "brand",
+      "sqlType": "text",
+      "sampleValue": "Hyundai",
+      "reasoning": "Brand name - will be normalized to brands table"
+    },
+    {
+      "csvColumn": "engine_size",
+      "safeName": "engine_size",
+      "sqlType": "text",
+      "sampleValue": "",
+      "reasoning": "Engine size specification - stored as text due to variable formats"
+    },
+    {
+      "csvColumn": "oem_part_number",
+      "safeName": "oem_part_number",
+      "sqlType": "text",
+      "sampleValue": "",
+      "reasoning": "OEM part number - critical for part identification and cross-reference"
+    },
+    {
+      "csvColumn": "category",
+      "safeName": "category_extra",
+      "sqlType": "text",
+      "sampleValue": "SKU:21173In Stock",
+      "reasoning": "Additional category info - stored in extra_attributes JSONB"
+    },
+    {
+      "csvColumn": "description",
+      "safeName": "description",
+      "sqlType": "text",
+      "sampleValue": "BOOT OUTER CV JOINT KIT PVC 76X98X23...",
+      "reasoning": "Product description - full text for search and display"
+    },
+    {
+      "csvColumn": "product_url",
+      "safeName": "product_url",
+      "sqlType": "text",
+      "sampleValue": "https://polishventure.com/product/hyundai-accent-00-boot-outer-cv-joint-kit-pvc-76x98x23/",
+      "reasoning": "Source product URL - kept for reference and potential scraping updates"
+    },
+    {
+      "csvColumn": "image_urls",
+      "safeName": "image_urls",
+      "sqlType": "text[]",
+      "sampleValue": "c",
+      "reasoning": "Product images - stored as text array, single char means no image"
+    },
+    {
+      "csvColumn": "scrape_date",
+      "safeName": "scrape_date",
+      "sqlType": "text",
+      "sampleValue": "11/2/2025 14:27",
+      "reasoning": "Data collection timestamp - stored as text, can be parsed later"
+    }
+  ],
+  "stats": {
+    "totalRows": 40,
+    "withSupplier": 40,
+    "withBrand": 21,
+    "withVehicleMake": 21,
+    "withOEM": 1,
+    "withImages": 20,
+    "withMainCategory": 24,
+    "withSubcategory": 21
+  }
+}

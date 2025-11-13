@@ -1,0 +1,518 @@
+[
+  {
+    "row": 0,
+    "error": "Supplier error: Could not find the table 'public.suppliers' in the schema cache",
+    "data": {
+      "supplierName": "PolishVenture"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Supplier error: Could not find the table 'public.suppliers' in the schema cache",
+    "data": {
+      "supplierName": "OneStopAutoGarage"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Brand error: null value in column \"id\" of relation \"brands\" violates not-null constraint",
+    "data": {
+      "brandName": "Hyundai"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Brand error: null value in column \"id\" of relation \"brands\" violates not-null constraint",
+    "data": {
+      "brandName": "Toyota"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Brand error: null value in column \"id\" of relation \"brands\" violates not-null constraint",
+    "data": {
+      "brandName": "Land Rover"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Brand error: null value in column \"id\" of relation \"brands\" violates not-null constraint",
+    "data": {
+      "brandName": "Volkswagen"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Brand error: null value in column \"id\" of relation \"brands\" violates not-null constraint",
+    "data": {
+      "brandName": "Dodge"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Brand error: null value in column \"id\" of relation \"brands\" violates not-null constraint",
+    "data": {
+      "brandName": "Mitsubishi"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Brand error: null value in column \"id\" of relation \"brands\" violates not-null constraint",
+    "data": {
+      "brandName": "Mazda"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Brand error: null value in column \"id\" of relation \"brands\" violates not-null constraint",
+    "data": {
+      "brandName": "Kia"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Brand error: null value in column \"id\" of relation \"brands\" violates not-null constraint",
+    "data": {
+      "brandName": "Nissan"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Brand error: null value in column \"id\" of relation \"brands\" violates not-null constraint",
+    "data": {
+      "brandName": "Audi"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Brand error: null value in column \"id\" of relation \"brands\" violates not-null constraint",
+    "data": {
+      "brandName": "VW"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Category error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "categoryName": "Suspension"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Category error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "categoryName": "Brakes"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Category error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "categoryName": "Fluids"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Category error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "categoryName": "Engine"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Category error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "categoryName": "Transmission"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Category error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "categoryName": "Filters"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Category error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "categoryName": "Electrical"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Subcategory error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "sub": "Gearbox",
+      "main": "Transmission"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Subcategory error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "sub": "ABS",
+      "main": "Brakes"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Subcategory error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "sub": "Coolant",
+      "main": "Suspension"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Subcategory error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "sub": "Spark Plugs",
+      "main": "Engine"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Subcategory error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "sub": "Engine Oil",
+      "main": "Engine"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Subcategory error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "sub": "Drive Shaft",
+      "main": "Transmission"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Subcategory error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "sub": "Stabilizer Links",
+      "main": "Suspension"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Subcategory error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "sub": "Control Arms",
+      "main": "Suspension"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Subcategory error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "sub": "Cabin Filter",
+      "main": "Filters"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Subcategory error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "sub": "Oil Filter",
+      "main": "Filters"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Subcategory error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "sub": "Brake Pads",
+      "main": "Brakes"
+    }
+  },
+  {
+    "row": 0,
+    "error": "Subcategory error: Could not find the 'parent_id' column of 'categories' in the schema cache",
+    "data": {
+      "sub": "Brake Shoes",
+      "main": "Brakes"
+    }
+  },
+  {
+    "row": 1,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Hyundai Accent 00 Boot Outer CV Joint Kit PVC 76X98X23"
+    }
+  },
+  {
+    "row": 2,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Toyota CVT TC Gearbox Transmission Oil 4L"
+    }
+  },
+  {
+    "row": 3,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Vehicle AC Gas Cylinder R134a"
+    }
+  },
+  {
+    "row": 4,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Land Rover 3/Discovery 3 Rear Shock Absorber Bushing"
+    }
+  },
+  {
+    "row": 5,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Abro Radiator Coolant"
+    }
+  },
+  {
+    "row": 6,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "SSANG YONG KORANDO C 2002-2013 Front shock absorber jounce bumper"
+    }
+  },
+  {
+    "row": 7,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Volkswagen Bora/Golf V-Ribbed Belt (6PK1548)"
+    }
+  },
+  {
+    "row": 8,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Denso K20PR-U11 Standard Spark Plug"
+    }
+  },
+  {
+    "row": 9,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Dodge Nitro Front Differential Bushing"
+    }
+  },
+  {
+    "row": 10,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Castrol EDGE 5W-30 Engine Oil"
+    }
+  },
+  {
+    "row": 11,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "MITSUBISHI L200,L200 SPORTERO KB7T 2005.05- GE O-ring fuel injector pcs 10"
+    }
+  },
+  {
+    "row": 12,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Genuine Mitsubishi CVT Gearbox Oil J1 4 Liter"
+    }
+  },
+  {
+    "row": 13,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Land Rover 3/Discovery 3 Rear Stabilizer Bar Bush D21.5"
+    }
+  },
+  {
+    "row": 14,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "NGK ILZKR7B-11S Laser Iridium Spark plugs"
+    }
+  },
+  {
+    "row": 15,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Hyundai IX35/Tucson 11 Left Parking Brake Cable"
+    }
+  },
+  {
+    "row": 16,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Denso IK16TT Spark Plug for Mazda Demio, Axela, Verisa"
+    }
+  },
+  {
+    "row": 17,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Mitsubishi Galant EA5A Left Engine Mount Bushing"
+    }
+  },
+  {
+    "row": 18,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Kia Soul Inner CV Joint 23X40X27"
+    }
+  },
+  {
+    "row": 19,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Motokool Radiator Coolant"
+    }
+  },
+  {
+    "row": 20,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "MITSUBISHI L200,L200 SPORTERO KB8T 2005.05- GE Cross shaft joint, drive shaft 30X71.5/101"
+    }
+  },
+  {
+    "row": 21,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Hyundai IX35/Tucson 10 Rear Knuckle Bushing"
+    }
+  },
+  {
+    "row": 22,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Stabilizer links"
+    }
+  },
+  {
+    "row": 23,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Control Arms"
+    }
+  },
+  {
+    "row": 24,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Cabin Filter"
+    }
+  },
+  {
+    "row": 25,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Mazda Biante CC3FW 2013 Rear Wheel Hub Assy C273-26-15XA"
+    }
+  },
+  {
+    "row": 26,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Toyota Genuine Spark Plugs 90919-01247 FK20HR11"
+    }
+  },
+  {
+    "row": 27,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Nissan Teana J32 Lower Control Arm RH/LH 545015/4500-JN01A"
+    }
+  },
+  {
+    "row": 28,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Spark Plugs BKR5EYA 4194 Toyota Corolla"
+    }
+  },
+  {
+    "row": 29,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Service Parts"
+    }
+  },
+  {
+    "row": 30,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Liqui Moly Carburetor Housing Cleaner 3325"
+    }
+  },
+  {
+    "row": 31,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Oil Filter Audi B7 RS4/B8 RS5/B8 S5/C6 A6/C6 S6/D3 A8/D3 S8/MK1 R8 / VW Touareg 1/2-V8 079198405B"
+    }
+  },
+  {
+    "row": 32,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Electrical Components"
+    }
+  },
+  {
+    "row": 33,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Toyota Land Cruiser 300 Series Genuine Rear Brake Pads 04466-60190"
+    }
+  },
+  {
+    "row": 34,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Spark Plugs"
+    }
+  },
+  {
+    "row": 35,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "VW Golf I II III/ Fox/Caddy/Polo Dip Stick Guide 53103663"
+    }
+  },
+  {
+    "row": 36,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Brake Shoes"
+    }
+  },
+  {
+    "row": 37,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Genuine Parts"
+    }
+  },
+  {
+    "row": 38,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Shock Absorbers"
+    }
+  },
+  {
+    "row": 39,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Liqui Moly"
+    }
+  },
+  {
+    "row": 40,
+    "error": "Product error: Could not find the 'currency' column of 'products' in the schema cache",
+    "data": {
+      "product_name": "Liqui Moly Synthoil Longtime 0W-30"
+    }
+  }
+]

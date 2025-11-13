@@ -1,0 +1,48 @@
+id,name,slug,category_id
+1,Spark Plugs,spark-plugs,1
+2,Pistons,pistons,1
+3,Oil Pump,oil-pump,1
+4,Timing Belt,timing-belt,1
+5,Gaskets,gaskets,1
+6,Shock Absorbers,shock-absorbers,2
+7,Control Arms,control-arms,2
+8,Stabilizer Links,stabilizer-links,2
+9,Bushings,bushings,2
+10,Ball Joints,ball-joints,2
+11,Brake Pads,brake-pads,3
+12,Brake Discs,brake-discs,3
+13,Brake Shoes,brake-shoes,3
+14,Brake Calipers,brake-calipers,3
+15,ABS Sensors,abs-sensors,3
+16,CV Joint,cv-joint,4
+17,Clutch Kit,clutch-kit,4
+18,Gearbox Oil,gearbox-oil,4
+19,Drive Shaft,drive-shaft,4
+20,Axle Boot,axle-boot,4
+21,Alternators,alternators,5
+22,Batteries,batteries,5
+23,Ignition Coils,ignition-coils,5
+24,Sensors,sensors,5
+25,ECU Modules,ecu-modules,5
+26,Air Filter,air-filter,6
+27,Oil Filter,oil-filter,6
+28,Fuel Filter,fuel-filter,6
+29,Cabin Filter,cabin-filter,6
+30,Engine Oil,engine-oil,7
+31,Coolant,coolant,7
+32,Transmission Fluid,transmission-fluid,7
+33,Brake Fluid,brake-fluid,7
+34,Bumpers,bumpers,8
+35,Headlights,headlights,8
+36,Tail Lights,tail-lights,8
+37,Mirrors,mirrors,8
+38,Grilles,grilles,8
+39,Wiper Blades,wiper-blades,9
+40,Car Mats,car-mats,9
+41,Seat Covers,seat-covers,9
+42,Phone Mounts,phone-mounts,9
+43,All-Season,all-season,10
+44,Performance,performance,10
+45,Off-Road,off-road,10
+46,Motorbike,motorbike,10
+47,Truck,truck,10
